@@ -1,0 +1,17 @@
+{
+    "singleQuote": true,
+    "tabWidth": 4,
+    "plugins": ["@ianvs/prettier-plugin-sort-imports"],
+    "importOrderCombineTypeAndValueImports": true,
+    "importOrder": [
+        "<BUILT_IN_MODULES>",
+        "",
+        "<THIRD_PARTY_MODULES>",
+        "",
+        "^@/.*$",
+        "",
+        "^(?!.*[.]s?css$)[./].*$",
+        "",
+        ".s?css$"
+    ]
+}
